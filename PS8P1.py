@@ -1,6 +1,6 @@
 def compute_total(quantity, price):
     total = quantity * price
-    if total > 10000:
+    if total > 100000:
         total *= 0.90  # Apply 10% discount
     return total
 
